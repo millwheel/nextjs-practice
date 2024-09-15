@@ -1,3 +1,11 @@
+import Navigation from "./navigation";
+
 export default function About(){
-    return <h1>about us</h1>
+    return (
+        <div>
+            <Navigation/>
+            <h1>about us</h1>
+        </div>
+
+)
 }
