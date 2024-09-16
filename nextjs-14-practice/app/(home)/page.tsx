@@ -1,9 +1,6 @@
-const URL = "https://nomad-movies.nomadcoders.workers.dev/movies";
+import { URL } from "./URL";
 
 async function getMovies() {
-  await new Promise((resolve, reject) => {
-    setTimeout(resolve, 5000);
-  });
   const response = await fetch(URL);
   return await response.json();
 }
