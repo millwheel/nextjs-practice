@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     template: "%s | NextJS",
     default: "Home",
   },
-  description: "The best movies on the best framework",
+  description: "The best (movies) on the best framework",
 };
 
 export default function RootLayout({
